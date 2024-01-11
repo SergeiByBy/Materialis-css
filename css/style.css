@@ -1,0 +1,37 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Roboto, sans-serif, Arial, Helvetica;
+  line-height: 150%;
+}
+
+a,
+ul {
+  list-style: none;
+  text-decoration: none;
+}
+
+.container {
+  max-width: 1200px;
+}
+.px {
+  padding: 0 30px;
+}
+.py {
+  padding: 5px 0;
+}
+.icon-menu {
+  width: 25px;
+  height: 25px;
+  margin-right: 20px;
+}
+.icon-menu:hover {
+  background-color: rgb(78, 153, 196);
+}
+.row > .col-menu {
+  padding-left: 80px;
+}
